@@ -99,3 +99,4 @@
 /Users/verlie.porley/Desktop/MVC/MyEmptyMvcApp/bin/Debug/net9.0/Microsoft.Extensions.Primitives.dll
 /Users/verlie.porley/Desktop/MVC/MyEmptyMvcApp/obj/Debug/net9.0/MyEmptyMvcApp.csproj.AssemblyReference.cache
 /Users/verlie.porley/Desktop/MVC/MyEmptyMvcApp/obj/Debug/net9.0/MyEmptyM.68ADBED5.Up2Date
+/Users/verlie.porley/Desktop/MVC/MyEmptyMvcApp/obj/Debug/net9.0/MyEmptyMvcApp.sourcelink.json

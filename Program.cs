@@ -20,7 +20,7 @@ app.MapStaticAssets();
 
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}")
+    pattern: "{controller=Todo}/{action=Index}/{id?}")
     .WithStaticAssets();
 
 await app.RunAsync(); // ✅ non-blocking

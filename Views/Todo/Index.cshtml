@@ -1,35 +1,13 @@
-@model MyEmptyMvcApp.Models.TaskListViewModel
+@model MyEmptyMvcApp.Models.TodoItem
 
-<h2>Todo List</h2>
-
-<form asp-action="Index" method="post">
+<form asp-action="Add" method="post">
     <div>
-        <label asp-for="NewItem.Title"></label>
-        <input asp-for="NewItem.Title" required />
+        <label>Task</label>
+        <input asp-for="Title">
     </div>
     <div>
-        <label asp-for="NewItem.IsComplete"></label>
-        <input asp-for="NewItem.IsComplete" type="checkbox" />
+        <label>Completed</label>
+        <input asp-for="IsComplete" type="checkbox">
     </div>
-    <button type="submit">Add</button>
+    <button type="submit">Create Task</button>
 </form>
-
-<hr />
-
-<table>
-    <thead>
-        <tr>
-            <th>Title</th>
-            <th>Completed</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.Tasks)
-        {
-            <tr>
-                <td>@item.Title</td>
-                <td>@item.IsComplete</td>
-            </tr>
-        }
-    </tbody>
-</table>
